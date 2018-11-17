@@ -1,25 +1,30 @@
-# movie_reviews
+# movie reviews Sentiment analysis
 Sentiment analysis of movie reviews data-set
+
+# data set
+
+http://ai.stanford.edu/~amaas/data/sentiment/aclImdb_v1.tar.gz
 
 # Preprocessing steps
 
-accents removal
-html escape sequence removal
-html tags removal using beautifulsoup4
-expand the contractions
-remove special characters
-remove stop words
+- accents removal
+- html escape sequence removal
+- html tags removal using beautifulsoup4
+- expand the contractions
+- remove special characters
+- remove stop words
+- lemmatize using word net
 
 # features tested
 
-Bag-of-words
-tf-idf
-bigram
+- Bag-of-words
+- tf-idf
+- bigram
 
 # classification
 
-SVM
-Logistic Regression
+- SVM
+- Logistic Regression
 
 # Results
 
